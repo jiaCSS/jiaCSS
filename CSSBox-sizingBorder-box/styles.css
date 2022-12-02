@@ -1,0 +1,56 @@
+body {
+  background: rgb(202, 207, 192);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: content-box;
+}
+
+.box {
+  background: blue;
+  padding: 40px;
+  margin: 5px 30px;
+  width: 250px;
+  text-align: center;
+  display: block;
+}
+
+.box.box1 {
+  color: white;
+  background: yellowgreen;
+  margin-top: 30px;
+}
+
+.box.box2 {
+  color: white;
+  background: gray;
+  height: 300px;
+  overflow: hidden;
+  overflow: scroll;
+}
+
+.box.box3 {
+  color: white;
+  background: wheat;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.box p {
+  color: black;
+  text-align: left;
+  text-indent: 20px;
+}
+
+button {
+  padding: 5px;
+  background: white;
+  border-radius: 5px;
+  border-color: white;
+  list-style-type: none;
+}
+
+.box a {
+  color: red;
+}

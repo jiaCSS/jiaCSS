@@ -1,0 +1,17 @@
+body{
+    background:darkcyan;
+}
+.container{
+    background: white;
+
+}
+.container h2{
+    color: blue
+}
+
+.special{
+    background: gray;
+}
+.special h2{
+    color: blue;
+}

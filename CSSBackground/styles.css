@@ -1,0 +1,29 @@
+div {
+  height: 300px;
+  color: black;
+  border: 2px solid red;
+  margin: ;
+}
+
+.bigImg {
+  background: url("./images/img3.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bigImg h1 {
+  padding: 10px;
+  background: wheat;
+  width: 200px;
+  color: black;
+}
+.smallImg {
+  background: url("./images/img2.jpeg");
+  background-repeat: no-repeat;
+}
+
+.folderImg {
+  background: url("./images/img1.jpeg");
+  background-repeat: no-repeat;
+}

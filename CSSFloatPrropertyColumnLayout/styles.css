@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.one,
+.two,
+.three,
+.four {
+  border: 1px solid red;
+  padding: 10px;
+  float: left;
+  width: 25%;
+  height: 200px;
+  overflow: scroll;
+  min-height: calc(100vh - 200px);
+  margin-top: 39px;
+}
+
+.four {
+  overflow: scroll;
+}
+
+.navbar {
+  border: 1px solid red;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+.navbar h1 {
+  margin-left: 150px;
+}
+
+.banner {
+  border: 1px solid red;
+  margin-left: 950px;
+  margin-top: -80px;
+}
+
+.banner li {
+  background: gray;
+  list-style-type: none;
+  margin: 10px;
+  width: 80px;
+  text-align: center;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.banner li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
